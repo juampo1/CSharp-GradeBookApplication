@@ -45,12 +45,10 @@ namespace GradeBook.UserInterfaces
             if(type == "standard")
             {
                 gradeBook = new StandardGradeBook(name);
-                Console.WriteLine("Created gradebook {0}.", name);
             }
             else if (type == "ranked")
             {
                 gradeBook = new RankedGradeBook(name);
-                Console.WriteLine("Created gradebook {0}.", name);
             }
             else
             {
